@@ -4,17 +4,12 @@
     <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" />
     <mj-font name="Didact Gothic" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" />
     <mj-style inline="inline">
-      .promo {
-        padding-top: 100px;
-        padding-bottom: 100px;
-
-      }
-
       @media only screen and (max-width: 480px) {}
     </mj-style>
     <mj-attributes>
-      <mj-section padding="50px" />
-      <mj-text font-size="20px" />
+      <mj-section padding="50px 20px" />
+      <mj-text font-size="20px" font-family="Didact Gothic" color="#222222" align="center" />
+      <mj-button font-size="21px" font-family="Didact Gothic" color="#ffffff" align="center" background-color="#674631" border-radius="100px" />
     </mj-attributes>
   </mj-head>
   <mj-body>
@@ -24,26 +19,49 @@
       </mj-column>
     </mj-section>
 
+    <mj-raw>
+      <!-- Logo Section -->
+    </mj-raw>
     <mj-section padding="0" background-color="#eeece9">
       <mj-column>
-        <mj-button href="#" font-family="'Playfair Display', Roboto, sans-serif" font-size="24px" font-weight="700" color="#222222" text-transform="uppercase" letter-spacing="0.1em" align="center" background-color="transparent">
+        <mj-button href="#" font-family="Playfair Display" font-size="24px" font-weight="700" color="#222222" text-transform="uppercase" letter-spacing="0.1em" align="center" background-color="transparent">
           Larana
         </mj-button>
       </mj-column>
     </mj-section>
+    <mj-raw>
+      <!-- Logo Section -->
+    </mj-raw>
 
     <mj-raw>
-      <!-- Company Header -->
+      <!-- Promo Section -->
     </mj-raw>
-    <mj-section padding="0" css-class="promo" background-url="https://github.com/anzhelikaspekter/email_1/blob/master/img/img_1.webp" background-size="cover" background-position="center" background-repeat="no-repeat">
+    <mj-section padding="0" css-class="promo" background-url="https://raw.githubusercontent.com/anzhelikaspekter/Cream-and-Brown-Minimalist-Fashion-Email-Newsletter/refs/heads/master/img/img_1.webp" background-size="cover" background-position="center" background-repeat="no-repeat" padding-top="100px" padding-bottom="100px">
       <mj-column width="400px">
-        <mj-text font-size="32px" font-family="'Playfair Display', Roboto, sans-serif" color="#ffffff" align="center">
+        <mj-text font-size="32px" font-family="Playfair Display" color="#ffffff" align="center">
           They're stylish. They're sustainable. And they're almost sold out.
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
-      <!-- Company Header -->
+      <!-- Promo Section -->
+    </mj-raw>
+
+    <mj-raw>
+      <!-- Description Section -->
+    </mj-raw>
+    <mj-section background-color="#eeece9">
+      <mj-column>
+        <mj-text>
+          You're a trendsetter, and we love that about you! That's why we wanted you to be the first to know about our limited-time fashion finds flying off the shelves.
+        </mj-text>
+        <mj-button href="#">
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Description Section -->
     </mj-raw>
 
   </mj-body>
