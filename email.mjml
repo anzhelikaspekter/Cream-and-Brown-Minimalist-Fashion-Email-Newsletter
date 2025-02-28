@@ -35,7 +35,7 @@
     <mj-raw>
       <!-- Company Header -->
     </mj-raw>
-    <mj-section padding="0" css-class="promo" background-url="https://drive.google.com/file/d/1Qz13v6yeqkGwuONTrmVMdzp9IhGIN1JC/view?usp=sharing" background-size="cover" background-position="center" background-repeat="no-repeat">
+    <mj-section padding="0" css-class="promo" background-url="https://github.com/anzhelikaspekter/email_1/blob/master/img/img_1.webp" background-size="cover" background-position="center" background-repeat="no-repeat">
       <mj-column width="400px">
         <mj-text font-size="32px" font-family="'Playfair Display', Roboto, sans-serif" color="#ffffff" align="center">
           They're stylish. They're sustainable. And they're almost sold out.
