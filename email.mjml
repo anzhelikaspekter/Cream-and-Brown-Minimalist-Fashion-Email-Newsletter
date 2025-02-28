@@ -64,5 +64,24 @@
       <!-- Description Section -->
     </mj-raw>
 
+    <mj-raw>
+      <!-- Product Section -->
+    </mj-raw>
+    <mj-section background-color="#eeece9">
+      <mj-column>
+        <mj-button href="#" width="100%" height="100%" background-url="">
+          Shop now
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-button href="#">
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Product Section -->
+    </mj-raw>
+
   </mj-body>
 </mjml>
